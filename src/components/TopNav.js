@@ -5,7 +5,7 @@ import {Link} from 'react-router-dom'
 class TopNav extends Component{
   render(){
     return(
-      <div  style={{zIndex:'50'}}>
+      <div  style={{zIndex:'50'}} className="top-nav">
                 <Link to='/' className="color-black no-style link-home"><i className="fa fa-home"></i></Link>
                 <Link to = {{
                   pathname : '/Camera',
